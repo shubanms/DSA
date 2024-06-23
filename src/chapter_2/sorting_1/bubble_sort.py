@@ -1,12 +1,12 @@
 def bubble_sort(
     array: list
 ) -> list:
-    '''
+    """
     This function sorts a list using the bubble sort
     algorithm and returns an array.
     This algorithm has a time complexity of O(n) and space complexity
     of O(n).
-    '''
+    """
 
     for i in range(len(array)-1):
         for j in range(i, len(array)):
